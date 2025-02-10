@@ -21,3 +21,4 @@ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -O ~
 # PSTools
 wget https://download.sysinternals.com/files/PSTools.zip -O ~/Tools/Windows/PSTools.zip
 unzip ~/Tools/Windows/PSTools.zip -d ~/Tools/Windows/PSTools
+rm ~/Tools/Windows/PSTools.zip
