@@ -5,14 +5,14 @@ mkdir -p ~/Tools/Linux
 mkdir -p ~/Tools/Windows
 mkdir -p ~/Tools/Common
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install -y \
+sudo apt install -y \
   seclists \
   enum4linux-ng \
   gobuster
 
-sudo apt-get clean
+sudo apt clean
 
 # --- Linux --- #
 # Install pspy binaries
