@@ -10,7 +10,8 @@ sudo apt update
 sudo apt install -y \
   seclists \
   enum4linux-ng \
-  gobuster
+  gobuster \
+  peass
 
 sudo apt clean
 
