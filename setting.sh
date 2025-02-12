@@ -11,7 +11,8 @@ sudo apt install -y \
   seclists \
   enum4linux-ng \
   gobuster \
-  peass
+  peass \
+  remmina
 
 sudo apt clean
 
