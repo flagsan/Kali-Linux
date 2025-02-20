@@ -12,7 +12,8 @@ sudo apt install -y \
   enum4linux-ng \
   gobuster \
   peass \
-  remmina
+  remmina \
+  bloodhound
 
 sudo apt clean
 
