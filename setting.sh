@@ -13,7 +13,8 @@ sudo apt install -y \
   gobuster \
   peass \
   remmina \
-  bloodhound
+  bloodhound \
+  keepassxc
 
 sudo apt clean
 
