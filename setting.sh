@@ -14,7 +14,8 @@ sudo apt install -y \
   peass \
   remmina \
   bloodhound \
-  keepassxc
+  keepassxc \
+  python3-wsgidav
 
 sudo apt clean
 
