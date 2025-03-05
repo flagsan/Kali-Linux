@@ -38,6 +38,15 @@ wget https://github.com/jpillora/chisel/releases/download/v1.10.1/chisel_1.10.1_
 gunzip ~/Tools/Linux/chisel.gz
 chmod +x ~/Tools/Linux/chisel
 
+# ligolo-ng
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.7.5/ligolo-ng_proxy_0.7.5_linux_amd64.tar.gz
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.7.5/ligolo-ng_agent_0.7.5_linux_amd64.tar.gz
+mkdir -p ~/Tools/Linux/ligolo-ng
+tar -xvzf ligolo-ng_proxy_0.7.5_linux_amd64.tar.gz --directory=~/Tools/Linux/ligolo-ng
+tar -xvzf ligolo-ng_agent_0.7.5_linux_amd64.tar.gz --directory=~/Tools/Linux/ligolo-ng
+rm ligolo-ng_proxy_0.7.5_linux_amd64.tar.gz
+rm ligolo-ng_agent_0.7.5_linux_amd64.tar.gz
+
 # --- Windows Tools --- #
 # PSTools
 wget https://download.sysinternals.com/files/PSTools.zip -O ~/Tools/Windows/PSTools.zip -q
