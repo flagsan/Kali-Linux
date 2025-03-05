@@ -57,3 +57,12 @@ rm ~/Tools/Windows/PSTools.zip
 wget https://github.com/jpillora/chisel/releases/download/v1.10.1/chisel_1.10.1_windows_amd64.gz -O ~/Tools/Windows/chisel.gz -q
 gunzip ~/Tools/Windows/chisel.gz
 mv ~/Tools/Windows/chisel ~/Tools/Windows/chisel.exe
+
+# ligolo-ng
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.7.5/ligolo-ng_proxy_0.7.5_windows_amd64.zip
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.7.5/ligolo-ng_agent_0.7.5_windows_amd64.zip
+mkdir -p ~/Tools/Windows/ligolo-ng
+unzip -o ligolo-ng_proxy_0.7.5_windows_amd64.zip -d ~/Tools/Windows/ligolo-ng
+unzip -o ligolo-ng_agent_0.7.5_windows_amd64.zip -d ~/Tools/Windows/ligolo-ng
+rm ligolo-ng_proxy_0.7.5_windows_amd64.zip
+rm ligolo-ng_agent_0.7.5_windows_amd64.zip
