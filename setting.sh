@@ -15,7 +15,8 @@ sudo apt install -y \
   remmina \
   bloodhound \
   keepassxc \
-  python3-wsgidav
+  python3-wsgidav \
+  mingw-w64
 
 sudo apt clean
 
