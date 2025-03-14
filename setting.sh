@@ -16,7 +16,8 @@ sudo apt install -y \
   bloodhound \
   keepassxc \
   python3-wsgidav \
-  mingw-w64
+  mingw-w64 \
+  jd-gui
 
 sudo apt clean
 
